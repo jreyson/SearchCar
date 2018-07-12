@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Used Car Search</title>
+    <script src="js/common/jquery-3.1.1.min.js"></script>
+
+    <script src="js/car/car_search_paging.js"></script>
+    <script src="js/car/used_car_search.js"></script>
+    <script src="js/car/car_search_select.js"></script>
+
+    <link rel="stylesheet" href="css/car/used_car_search.css">
+    <link rel="stylesheet" href="css/car/used_car_block.css">
+    <link rel="stylesheet" href="css/paging.css">
+
+</head>
+<body onload="initMakerItem()">
+<header id="search_header"></header>
+<div>
+    <ul class="maker_type">
+        <li class="select-list">
+            <dl id="maker_item">
+                <dt>品牌：</dt>
+                <dd class="select-all selected"><a href="#">全部</a></dd>
+            </dl>
+        </li>
+        <li class="select-list">
+            <dl id="type_item">
+                <dt>车系：</dt>
+                <dd class="select-all selected"><a href="#">全部</a></dd>
+            </dl>
+        </li>
+        <li class="select-result">
+            <dl>
+                <dt>已选条件：</dt>
+            </dl>
+        </li>
+    </ul>
+</div>
+
+<div id="pager-forward" class="pager"></div>
+<div id="search-result"></div>
+<div id="pager-backward" class="pager"></div>
+</body>
+</html>

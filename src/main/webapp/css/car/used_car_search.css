@@ -1,0 +1,26 @@
+.maker_type{background-image:url("http://bbs.static.coloros.com/data/attachment/forum/201404/14/132222dwtwvkxewipljepl.jpg");padding:5px 10px;border:#ddd 1px solid;border-radius:4px;width:80%;margin:1% auto;font-size:12px}
+.maker_type li{list-style:none;padding:10px 0 5px 100px}
+.maker_type .select-list{border-bottom:#eee 1px dashed}
+.maker_type dl{zoom:1;position:relative;line-height:24px;}
+.maker_type dl:after{content:" ";display:block;clear:both;height:0;overflow:hidden}
+.maker_type dt{width:100px;margin-bottom:5px;position:absolute;top:0;left:-100px;text-align:right;color:#666;height:24px;line-height:24px}
+.maker_type dd{float:left;display:inline;margin:0 0 2px 2px;}
+.maker_type a{display:inline-block;white-space:nowrap;height:24px;padding:0 2px;text-decoration:none;color:#039;border-radius:2px;}
+.maker_type a:hover{color:#f60;background-color:#f3edc2}
+.maker_type .selected a{color:#fff;background-color:#f60}
+.select-result dt{font-weight:bold}
+.select-no{color:#999}
+.maker_type .select-result a{padding-right:20px;background:#f60 right 9px no-repeat}
+.maker_type .select-result a:hover{background-position:right -15px}
+#search-result li{
+    list-style:none;
+    float:left;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    display: inline;
+    z-index: 2;
+}
+#search-result {
+    width: 90%;
+    margin: 0 auto;
+}

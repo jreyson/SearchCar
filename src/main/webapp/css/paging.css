@@ -1,0 +1,11 @@
+.pagination { color: #333; text-align: center; margin: 8px; }
+.pagination span { color: #999; margin: 0 1px; padding: 3px 6px; border: 1px solid #ccc; }
+.pagination span.on { background-color: #337ab7; color: #fff; font-weight: bold; border: 1px solid #333; }
+.pagination a { color: #00f; text-decoration: none; }
+.pagination a span { border: 1px solid #66c; color: #33f; }
+#pager-forward { margin: 20px; padding: 4px; }
+#pager-backward{margin: 20px; padding: 4px;
+float: left;
+    width: 100%;
+}
+

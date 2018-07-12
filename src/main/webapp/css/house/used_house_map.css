@@ -1,0 +1,5 @@
+body, html,#allMap {width: 100%;height: 100%; margin:0;font-family:"微软雅黑";}
+.tbody_tr td{width: 5%;}
+.thead_tr th{width: 5%;}
+#button_div{width:100%;margin: auto}
+#button_div button{margin:0 10px;}
